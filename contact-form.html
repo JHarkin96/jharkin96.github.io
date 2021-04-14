@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>My Website homepage</title>
+
+        <link rel="stylesheet" href="./assets/style.css">
+        <link rel="stylesheet" href="./assets/navbar.css">
+    </head>
+
+    <header>
+        <nav>
+            <ul class="nav-menu">
+             <li><a href="./index.html">Home</a></li>
+             <li><a href="./about.html">About</a></li>
+             <li><a href="./products.html">Products</a></li>
+             <li><a href="./portfolio.htmlaral">Portfolio</a></li>
+             <li><a href="./contact-form.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<body>
+
+    <img src="images/jessiiclara logo.png" alt="logo">
+    <h1>jessiiclara</h1>
+
+</br></br></br>
+
+    <h2>CONTACT&nbsp;ME</h2>
+
+    <p>Hi there! Wanna contact me for more information? Well, work away my friend! I will get back to you as soon as I can. (pinky promise) </p>
+
+ <!-- Contact form using formspree to send quiries to is used here -->
+
+     <form action="https://formspree.io/f/xdoynpky" method="post">
+        <p>First Name:</p>
+        <input type="text" name="firstName" />
+        <p>Last Name:</p>
+        <input type="text" name="lastName" />
+        <p>Email:</p>
+        <input type="text" name="email" />
+
+            <p>Query Type:</p>
+            <input type="radio" name="queryType" value="General" /> General
+            <input type="radio" name="queryType" value="Commissions" /> Commissions
+            <input type="radio" name="queryType" value="Postage" /> Postage
+            <input type="radio" name="queryType" value="Payment" /> Payment
+            <input type="radio" name="queryType" value="Other" /> Other
+
+        <p>Message:</p>
+        <textarea name="message"></textarea>
+
+        <br/><br/>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
